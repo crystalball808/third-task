@@ -1,0 +1,28 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table {
+  width: 100%;
+  border: 3px solid purple;
+  border-collapse: collapse;
+}
+
+.table-head {
+    background-color: rgb(157, 103, 207);
+}
+
+.table-body {
+    & tr td {
+        padding-left: 4px;
+        padding-right: 4px;
+        border-bottom: 1px solid rgb(121, 76, 121);
+        &:first-child {
+            border-right: 1px solid rgb(121, 76, 121);
+        }
+    }
+
+    
+}
